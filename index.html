@@ -38,7 +38,7 @@
                             <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light text-nowrap"  data-bs-toggle="modal" data-bs-target="#car"href="#">
+                            <a class="nav-link text-light text-nowrap"  href="Carrinho.html">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                     <path
@@ -51,56 +51,35 @@
                 </div>
             </div>
         </nav>
-        <!-- Modal -->
-        <div class="modal fade" id="car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carrinho</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        Seu carrinho esta vazio
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
-                        <button type="button" class="btn btn-primary">Comprar</button>
-                    </div>
+
+        <section class="container-fluid bg-light p-3 d-flex flex-wrap justify-content-evenly text-dark">
+
+            <div class="row">
+                <div class="d-flex justify-content-center ">
+                    <button type ="button" class="btn btn-danger m-2 bx-sh">Tudo</button>
+                    <button type ="button" class="btn btn-danger m-2 bx-sh">Roupas</button>
+                    <button type ="button" class="btn btn-danger m-2 bx-sh">Calças</button>
+                    <button type ="button" class="btn btn-danger m-2 bx-sh">Calçados</button>
                 </div>
             </div>
-        </div>
-        <section class="container-fluid bg-light p-3 d-flex justify-content-evenly text-dark">
-            <li class="nav-item dropdown list-unstyled">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+            <li class="nav-item dropdown list-unstyled m-1">
+                <a class="nav-link dropdown-toggle btn btn-danger p-2 text-light" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Categorias
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#db">Celulares</a></li>
-                    <li><a class="dropdown-item" href="#ev">Eletrodomesticos</a></li>
+                    <li><a class="dropdown-item" href="#">Celulares</a></li>
+                    <li><a class="dropdown-item" href="#">Eletrodomesticos</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#ca">Cama/mesa/banho</a></li>
-                    <li><a class="dropdown-item" href="#db">Informatica</a></li>
+                    <li><a class="dropdown-item" href="#">Cama/mesa/banho</a></li>
+                    <li><a class="dropdown-item" href="#">Informatica</a></li>
                 </ul>
             </li>
 
-            <div>
-                Celulares
-            </div>
-            <div>
-                Eletrodomesticos
-            </div>
-            <div>
-                Cama/mesa/banho
-            </div>
-            <div>
-                Informatica
-            </div>
-            <div>
-                Black friday
-            </div>
+                
         </section>
     </header>
 
@@ -338,7 +317,7 @@
     </main>
     
 
-    <footer class="container-fluid mt-5 text-center">
+    <footer class="container-fluid mt-5 text-center bottom-0">
         <div class="row  mt-5">
             <div class="col-12 bg-light p-4 fs-3">Loja</div>
         </div>
